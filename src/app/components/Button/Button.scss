@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  padding:5px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  &.enabled {
+    background-color: $highlightBackground;
+    cursor: pointer;
+    &:hover {
+      background-color: #3598ff;
+    }
+  }
+
+  &.selected {
+    background-color: #3598ff;
+  }
+
+  &.disabled {
+
+  }
+
+}

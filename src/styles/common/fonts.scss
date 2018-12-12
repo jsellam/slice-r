@@ -1,0 +1,19 @@
+
+$font-path:"./../assets/fonts/";
+
+
+@mixin registerFont($name, $weight) {
+  $fontpath: "#{$font-path}#{$name}/#{$name}";
+  @font-face {
+    font-family: "#{$name}";
+    src: url('#{$fontpath}.eot');
+    src: url('#{$fontpath}.eot?#iefix') format('embedded-opentype'),
+    url('#{$fontpath}.woff') format('woff'),
+    url('#{$fontpath}.ttf') format('truetype');
+    font-weight: $weight;
+    font-style: normal;
+  }
+}
+
+
+@include registerFont($font-regular, 'normal');

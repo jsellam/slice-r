@@ -1,0 +1,4 @@
+{
+  "presets": ["@babel/preset-react", "es2015"],
+  "plugins": [["@babel/plugin-proposal-class-properties"], ["@babel/plugin-proposal-decorators", { "legacy": true }]]
+}

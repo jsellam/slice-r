@@ -1,0 +1,27 @@
+
+
+.tool-group {
+  display:flex;
+  flex-direction: column;
+  margin-bottom:20px;
+  
+  .tool-title {
+    text-align: left;
+    font-size:10px;
+    margin-bottom:5px;
+    position:relative;
+    text-transform: uppercase;
+  }
+
+
+  .tool-group-content {
+    display:flex;
+    padding:10px;
+    box-sizing: border-box;
+    border: solid 1px $highlightBackground;
+  }
+  
+
+}
+
+  

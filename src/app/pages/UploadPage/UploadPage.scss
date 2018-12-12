@@ -1,0 +1,17 @@
+.upload-page {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  .drop-zone {
+    border:dashed 10px $primaryColor;
+    width:60%;
+    height:40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    &.drag-over{
+      background-color: $highlightBackground;
+    }
+  }
+}
